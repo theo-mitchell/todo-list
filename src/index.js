@@ -1,2 +1,8 @@
-console.log('meow meow meow meow');
-console.log('webpack watch is working!!');
+function createProject (name) {
+    return {name}
+}
+
+
+function createToDo (title, description, dueDate, priority) {
+    return {title, description, dueDate, priority}
+}
